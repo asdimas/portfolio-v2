@@ -1,0 +1,4 @@
+*Color inspirasi
+#FFBC82 oren pudar
+#FEA150 oren pekat
+#FFFFFF

@@ -1,0 +1,44 @@
+body {
+  font-family: Josefin Sans;
+}
+
+.bg-purple {
+  background-color: #9a55ff;
+  /* background-color: #fea150; */
+  /* background-color: #ffbc82; */
+  /* background-image: linear-gradient(to right, #a575ee, #9a55ff); */
+}
+
+.bg-button {
+  background-image: radial-gradient(circle at top left, #6c22db, #9a55ff);
+  color: #fff;
+  width: 90px;
+}
+
+.bg-button:hover {
+  color: #fff;
+  background-image: radial-gradient(circle at top left, #9a55ff, #9a55ff);
+  transition: all ease 0.2s;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  /* background-color: #f9f8fd; */
+  background-color: #f2edf3;
+}
+
+#project {
+  background-color: #f2edf3;
+}
+
+.bg-footer {
+  background-color: #9a55ff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.text {
+  text-align: justify;
+}
