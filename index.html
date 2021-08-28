@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My Style -->
     <link rel="stylesheet" href="assets/style.css" />
@@ -54,7 +55,7 @@
     <section class="jumbotron text-center">
       <img src="assets/images/dimas.jpg" alt="Asep Dimas" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Asep Dimas</h1>
-      <p class="lead">Fullstack Developer</p>
+      <p class="lead"></p>
       <a href="assets/CV/CV-Asep Dimas.pdf"><button type="button" class="btn rounded-pill bg-button">Resume</button></a>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -74,11 +75,11 @@
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text">
-          <div class="col-md-4">
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>Hai, saya adalah seorang programmer dan developer yang bergerak di bidang IT. Saya menyukai hal-hal yang berkaitan dengan teknologi informasi dan juga salah satu lulusan IT dari Universitas Dian Nuswantoro Semarang.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Sudah berpengalaman dalam pembuatan aplikasi berbasis website, mobile dan desain UI/UX. Menguasai beberapa bahasa pemrogramman seperti PHP, Python, Javascript. Mampu bertugas sebagai backend dan frontend developer.</p>
           </div>
         </div>
@@ -103,7 +104,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="assets/images/project1.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Project ini adalah desain antarmuka website yang dibuat menggunakan figma menggambarkan tentang pemesanan makanan secara online.</p>
@@ -111,7 +112,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
               <img src="assets/images/project-2.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Project ini adalah website landing page yang digunakan untuk menjual suatu produk.</p>
@@ -119,7 +120,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
               <img src="assets/images/project-3.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Project ini adalah desain antarmuka website yang dibuat menggunakan figma menggambarkan tentang desain interior property perumahan.</p>
@@ -137,6 +138,70 @@
       </svg>
     </section>
     <!-- akhir project -->
+
+    <!-- gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/1.jpg" alt="gambar-1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/2.jpg" alt="gambar-2" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/3.jpg" alt="gambar-3" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/4.jpg" alt="gambar-4" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/5.jpg" alt="gambar-5" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/6.jpg" alt="gambar-6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/7.jpg" alt="gambar-7" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/8.jpg" alt="gambar-8" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/9.jpg" alt="gambar-9" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="assets/images/thumbnail/10.jpg" alt="gambar-10" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir gallery -->
 
     <!-- contact -->
     <section id="contact">
@@ -196,6 +261,33 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
+    <!-- script aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- script gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Fullstack Developer" });
+      gsap.from(".jumbotron img", { duration: 1, y: -100, delay: 0.5, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
+
     <!-- script google sheets -->
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxrm5Bb-k1eqhLkRpbbYlNb19xiWA_sBMPzY7NCkZMdMy_Gk5VGNBKyWk8UVkJFFPLq/exec";
@@ -223,5 +315,6 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+    <!-- akhir script google sheet -->
   </body>
 </html>

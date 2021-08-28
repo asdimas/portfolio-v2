@@ -42,3 +42,11 @@ section {
 .text {
   text-align: justify;
 }
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
