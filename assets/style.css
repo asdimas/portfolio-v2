@@ -1,9 +1,21 @@
 body {
-  font-family: Josefin Sans;
+  font-family: "Josefin Sans";
+  color: white;
 }
 
-.bg-purple {
-  background-color: #9a55ff;
+a {
+  text-decoration: none;
+}
+
+.bg-darkBlue {
+  background-color: #091C43;
+  /* background-color: #fea150; */
+  /* background-color: #ffbc82; */
+  /* background-image: linear-gradient(to right, #a575ee, #9a55ff); */
+}
+
+.bg-dark {
+  background-color: #06132D;
   /* background-color: #fea150; */
   /* background-color: #ffbc82; */
   /* background-image: linear-gradient(to right, #a575ee, #9a55ff); */
@@ -17,19 +29,47 @@ body {
 
 .bg-button:hover {
   color: #fff;
-  background-image: radial-gradient(circle at top left, #9a55ff, #9a55ff);
+  background-image: radial-gradient(circle at top left, #6c22db, #9a55ff);
   transition: all ease 0.2s;
+  opacity: 0.9;
 }
 
 .jumbotron {
   padding-top: 6rem;
   /* background-color: #f9f8fd; */
-  background-color: #f2edf3;
+  background-color: #06132D;
+}
+
+.jumbotron img {
+  object-fit: cover;
+}
+
+.jumbotron h1,
+p {
+  color: #FFFFFF;
+}
+
+#about h2 {
+  color: #FFFFFF;
 }
 
 #project {
-  background-color: #f2edf3;
+  background-color: #06132D;
+  color: white;
 }
+
+#gallery {
+  background-color: #9a55ff;
+}
+
+#contact {
+  background-color: #06132D;
+}
+
+#about {
+  background-color: #9a55ff;
+}
+
 
 .bg-footer {
   background-color: #9a55ff;
@@ -47,6 +87,10 @@ section {
   width: 100%;
 }
 
-#gallery .row > * {
+#gallery .row>* {
   padding: 0;
+}
+
+.card-text {
+  color: #06132D;
 }
